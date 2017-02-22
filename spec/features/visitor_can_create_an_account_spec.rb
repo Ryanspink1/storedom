@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.feature "Visitor tries to create account" do
   context "providing valid credentials" do
     scenario  "account creation is successful" do
-      visit sign_up_path
+      visit new_user_path
 
       fill_in "Username", with: "NewUser"
       fill_in "Email", with: "NewUser@example.com"
