@@ -12,9 +12,20 @@ gem "faker"
 gem "therubyracer"
 gem "less-rails-bootstrap"
 gem "minitest-rails"
+gem 'bcrypt', '~> 3.1.7'
+gem "spring"
+gem 'byebug'
+gem 'capybara'
+gem 'launchy'
+gem 'rspec-rails'
+
 
 group :development do
   gem "spring"
+  gem 'byebug'
+  gem 'capybara'
+  gem 'launchy'
+  gem 'rspec-rails'
 end
 
 group :development, :test do
